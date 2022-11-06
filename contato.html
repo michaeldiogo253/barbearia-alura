@@ -25,16 +25,16 @@
 		<main>
 			<form action="">
 				<label for="nomesobrenome">Nome e Sobrenome</label>
-				<input type="text id="nomesobrenome">
+				<input type="text" id="nomesobrenome" required>
 
 				<label for="email">Email</label>
-				<input type="text id="email">
+				<input type="email" id="email" required placeholder="seuemail@dominio.com">
 
 				<label for="telefone">Telefone</label>
-				<input type="text id="telefone">
+				<input type="tel" id="telefone" required placeholder="(xx) xxxxx-xxxx">
 
 				<label for="mensagem">Mensagem</label>
-				<textarea id="mensagem" cols="70" rows="10"></textarea>
+				<textarea id="mensagem" cols="70" rows="10" required></textarea>
 
 				<div>
 					<p>Como prefere o nosso contato?</p>
@@ -49,7 +49,7 @@
 					</label>
 
 					<label for="radio-whatsapp">
-						<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+						<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
 						WhatsApp
 					</label>
 				</div>
